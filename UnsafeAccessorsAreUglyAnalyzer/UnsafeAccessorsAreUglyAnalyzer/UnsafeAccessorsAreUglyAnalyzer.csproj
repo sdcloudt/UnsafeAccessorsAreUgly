@@ -4,8 +4,13 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <IsPackable>false</IsPackable>
 
-    <!-- Avoid ID conflicts with the package project. -->
-    <PackageId>*$(MSBuildProjectFile)*</PackageId>
+    <PackageId>org.cloudt.UnsafeAccessorsAreUgly</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>S. D. Cloudt</Authors>
+    <Description>Analyzer for detecting unsafe accessors in C# code.</Description>
+    <Copyright>Copyright (c) S. D. Cloudt 2024</Copyright>
+    <PackageProjectUrl>https://github.com/sdcloudt/UnsafeAccessorsAreUgly</PackageProjectUrl>
+    <Tags>UnsafeAccessors;analyzers</Tags>
   </PropertyGroup>
 
   <ItemGroup>

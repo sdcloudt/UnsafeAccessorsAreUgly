@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnsafeAccessorsAreUglyAnalyzer", "UnsafeAccessorsAreUglyAnalyzer\UnsafeAccessorsAreUglyAnalyzer\UnsafeAccessorsAreUglyAnalyzer.csproj", "{3E1611A7-D0B3-4686-8E34-94EB3EE3610A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnsafeAccessorsAreUglyAnalyzer", "UnsafeAccessorsAreUglyAnalyzer\UnsafeAccessorsAreUglyAnalyzer\UnsafeAccessorsAreUglyAnalyzer.csproj", "{3E1611A7-D0B3-4686-8E34-94EB3EE3610A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnsafeAccessorsAreUglyAnalyzer.Package", "UnsafeAccessorsAreUglyAnalyzer\UnsafeAccessorsAreUglyAnalyzer.Package\UnsafeAccessorsAreUglyAnalyzer.Package.csproj", "{A05DDA96-BBA7-4A0A-A052-96896B2468C0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnsafeAccessorsAreUglyAnalyzer.Vsix", "UnsafeAccessorsAreUglyAnalyzer\UnsafeAccessorsAreUglyAnalyzer.Vsix\UnsafeAccessorsAreUglyAnalyzer.Vsix.csproj", "{4BF2241A-CBE8-4E45-8C6B-3410A819993D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnsafeAccessorsAreUglyAnalyzer.Vsix", "UnsafeAccessorsAreUglyAnalyzer\UnsafeAccessorsAreUglyAnalyzer.Vsix\UnsafeAccessorsAreUglyAnalyzer.Vsix.csproj", "{4BF2241A-CBE8-4E45-8C6B-3410A819993D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +17,6 @@ Global
 		{3E1611A7-D0B3-4686-8E34-94EB3EE3610A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E1611A7-D0B3-4686-8E34-94EB3EE3610A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E1611A7-D0B3-4686-8E34-94EB3EE3610A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A05DDA96-BBA7-4A0A-A052-96896B2468C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A05DDA96-BBA7-4A0A-A052-96896B2468C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A05DDA96-BBA7-4A0A-A052-96896B2468C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A05DDA96-BBA7-4A0A-A052-96896B2468C0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4BF2241A-CBE8-4E45-8C6B-3410A819993D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4BF2241A-CBE8-4E45-8C6B-3410A819993D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BF2241A-CBE8-4E45-8C6B-3410A819993D}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -1,8 +1,8 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <IsPackable>false</IsPackable>
+    <IsPackable>trued</IsPackable>
 
     <PackageId>org.cloudt.UnsafeAccessorsAreUgly</PackageId>
     <PackageVersion>1.0.0</PackageVersion>
@@ -10,7 +10,9 @@
     <Description>Analyzer for detecting unsafe accessors in C# code.</Description>
     <Copyright>Copyright (c) S. D. Cloudt 2024</Copyright>
     <PackageProjectUrl>https://github.com/sdcloudt/UnsafeAccessorsAreUgly</PackageProjectUrl>
-    <Tags>UnsafeAccessors;analyzers</Tags>
+    <Title>org.cloudt.UnsafeAccessorsAreUgly</Title>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageTags>analyzer;UnsafeAccessor</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
